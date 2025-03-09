@@ -22,8 +22,13 @@ Please test it as much as you can.
 ##安装步骤：
 
 1.下载DLL，复制到EMBY的Plugins目录
+
 2.重启EMBY服务器
+
 3.使用Telegram，找@BotFather创建一个机器人（bot）
+
 4.跟bot开始一个会话，点/start
+
 5.打开浏览器，输入 `https://api.telegram.org/bot<BotTokenGoesHere>/getUpdates` 找到ChatID
+
 6.打开EMBY——设置——通知——添加——Telegram，输入机器人的Token和ChatID
